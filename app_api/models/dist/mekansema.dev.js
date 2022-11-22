@@ -19,7 +19,7 @@ var yorumSema = new mongoose.Schema({
     required: true
   },
   puan: {
-    trpe: Number,
+    type: Number,
     "default": 0,
     min: 0,
     max: 5
@@ -35,12 +35,12 @@ var yorumSema = new mongoose.Schema({
 });
 var mekanSema = new mongoose.Schema({
   ad: {
-    trpe: Number,
+    type: String,
     required: true
   },
   adres: String,
   puan: {
-    trpe: Number,
+    type: Number,
     "default": 0,
     min: 0,
     max: 5

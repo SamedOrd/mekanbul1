@@ -1,5 +1,5 @@
 const anaSayfa=function(req,res,next){
-    res.render('anasayfa', { 
+    res.render('anaSayfa', { 
         "baslik": "Anasayfa",
         "sayfaBaslik": {
             "siteAd": "Mekanbul",
