@@ -1,0 +1,23 @@
+Client, Thunder Client
+CollectionName, Samed Ordueri Mekanbul API Testi 
+FolderName, 
+EnvironmentName, mekanbul
+DateExported, 2022-11-29T16:26:07.140Z
+Total Iterations, 1
+Total Passed, 1
+Total Failed, 0
+Failed Iterations Numbers, 
+
+
+
+Iteration, 1
+Method, Name, Url, Status, Time, Passed, Total, Result
+POST, Mekan Ekle, http://localhost:3000/api/mekanlar, 201, 44 ms, 1, 1, Pass
+GET, Mekanları Listele, http://localhost:3000/api/mekanlar/?enlem=37.8&boylam=30.5, 200, 35 ms, 1, 1, Pass
+GET, Mekan Getir, http://localhost:3000/api/mekanlar/63863264e97d42406dbbe024, 200, 9 ms, 1, 1, Pass
+PUT, Mekan Güncelle, http://localhost:3000/api/mekanlar/63863264e97d42406dbbe024, 200, 18 ms, 1, 1, Pass
+POST, Yorum Ekle, http://localhost:3000/api/mekanlar/63863264e97d42406dbbe024/yorumlar/, 201, 8 ms, 1, 1, Pass
+GET, Yorum Getir, http://localhost:3000/api/mekanlar/63863264e97d42406dbbe024/yorumlar/63863264e97d42406dbbe033, 200, 3 ms, 1, 1, Pass
+GET, Yorum Güncelle, http://localhost:3000/api/mekanlar/63863264e97d42406dbbe024/yorumlar/63863264e97d42406dbbe033, 200, 5 ms, 1, 1, Pass
+DELETE, Yorum Sil, http://localhost:3000/api/mekanlar/63863264e97d42406dbbe024/yorumlar/63863264e97d42406dbbe033, 200, 6 ms, 1, 1, Pass
+DELETE, Mekan Sil , http://localhost:3000/api/mekanlar/63863264e97d42406dbbe024, 200, 6 ms, 1, 1, Pass
