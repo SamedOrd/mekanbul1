@@ -115,6 +115,8 @@ const yorumumuEkle = function (req, res) {
       puan: req.body.puan,
       yorumMetni: req.body.yorum
     }
+
+  //Axios kurulumu yapıldı. 
   axios
     .post(
       apiSecenekleri.sunucu + apiSecenekleri.apiYolu + mekanid + "/yorumlar",
